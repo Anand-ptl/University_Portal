@@ -15,7 +15,7 @@
 a {
   text-decoration: none;
   color: white;
-  width: 150px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ a::after {
 }
 
 .value {
-  width: 58%;
+  width: 63%;
   color: #333;
   background-color: yellow;
 }
