@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.name {
+  background-color: yellow;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+}
+.img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.2;
+  width: 100%;
+}
+A {
+  text-decoration: none;
+}
+.link {
+  position: fixed;
+  top: 300px;
+  width: 100%;
+
+  background-color: yellow;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+}
+#button1 {
+  border: 5px, solid, rgb(238, 0, 0);
+  background-color: aqua;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+#button1:hover {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
+#button1::after {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
+#button2 {
+  border: 5px, solid, rgb(99, 0, 238);
+  background-color: aqua;
+  color: black;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+#button2:hover {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
+#button2::after {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
+#button3 {
+  border: 5px, solid, rgb(0, 0, 0);
+  background-color: aqua;
+  color: black;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+#button3:hover {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
+#button3::after {
+  background-color: rgb(23, 177, 23);
+  font-size: 25px;
+}
