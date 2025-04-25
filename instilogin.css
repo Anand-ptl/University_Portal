@@ -10,7 +10,7 @@
   border: 1px, solid, white;
   display: flex;
   justify-content: space-between; 
-  font-size: 25px;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -32,12 +32,14 @@ a {
 a:hover {
   background-color: white;
   color: black;
+  width: 220px;
  
 }
 a::after {
   background-color: white;
   color: black;
-  font-size: 30px;
+  font-size: 22px;
+  width: 220px;
 }
 .container {
   max-width: 800px;
@@ -61,7 +63,7 @@ a::after {
 }
 
 .value {
-  width: 63%;
+  width: 66%;
   color: #333;
   background-color: yellow;
 }
