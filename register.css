@@ -80,10 +80,21 @@ button {
   cursor: pointer;
   font-size: 25px;
   width: 100%;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition: 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #054208;
+  font-size: 35px;
+  
+}
+
+button::after {
+  background-color: #054208;
+  font-size: 35px;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -94,6 +105,9 @@ button:hover {
   .input-group input {
     width: 100%;
   }
+}
+h4{
+  background-color: yellow;
 }
 footer {
   text-align: center;
@@ -109,3 +123,24 @@ select {
 #mail {
   text-transform: lowercase;
 }
+#gender{
+  border-radius: 5px;
+}
+#program{
+  border-radius: 5px;
+}
+
+#studymode{
+  border-radius: 5px;
+}
+
+#year{
+  border-radius: 5px;
+}
+#Qualification{
+  border-radius: 5px;
+}
+
+
+
+
