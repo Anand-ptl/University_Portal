@@ -25,11 +25,13 @@
   background-color: white;
   color: black;
   font-size: 22px;
+  border: 2px,solid,yellow;
 }
 .button_anchor::after {
   background-color: white;
   color: black;
   font-size: 22px;
+  border: 2px,solid,yellow;
 }
 /* a {
   text-decoration: none;
@@ -86,11 +88,13 @@ li {
   background-color: white;
   font-size: 22px;
   color: black;
+  border: 2px,solid,yellow;
 }
 .logout::after {
   background-color: white;
   font-size: 22px;
   color: black;
+  border: 2px,solid,yellow;
 }
 .marquee {
   width: 100%;

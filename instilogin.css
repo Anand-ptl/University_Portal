@@ -33,6 +33,7 @@ a:hover {
   background-color: white;
   color: black;
   width: 220px;
+  border: 4px,solid,yellow;
  
 }
 a::after {
@@ -40,6 +41,7 @@ a::after {
   color: black;
   font-size: 22px;
   width: 220px;
+  border: 4px,solid,yellow;
 }
 .container {
   max-width: 800px;
