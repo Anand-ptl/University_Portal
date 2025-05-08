@@ -46,10 +46,12 @@ A {
 #button1:hover {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
 #button1::after {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
 #button2 {
   border: 5px, solid, rgb(99, 0, 238);
@@ -65,10 +67,12 @@ A {
 #button2:hover {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
 #button2::after {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
 #button3 {
   border: 5px, solid, rgb(0, 0, 0);
@@ -84,8 +88,10 @@ A {
 #button3:hover {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
 #button3::after {
   background-color: rgb(23, 177, 23);
   font-size: 25px;
+  color: white;
 }
