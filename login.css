@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-background: linear-gradient(135deg, #64777d, #d67916);
+  background: linear-gradient(135deg, #64777d, #d67916);
 
   display: flex;
   justify-content: center;
@@ -16,13 +16,14 @@ background: linear-gradient(135deg, #64777d, #d67916);
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-   filter: drop-shadow(10px 10px 20px black);
+  filter: drop-shadow(10px 10px 20px black);
 
   text-align: center;
   width: 350px;
 }
 .logo img {
   width: 80px;
+  filter: drop-shadow(10px 10px 20px black);
 }
 h2 {
   font-size: 20px;
@@ -103,8 +104,8 @@ button {
   background-color: black;
   color: white;
   width: 100px;
-border: 1px,solid,black;
-border-radius: 5px;
+  border: 1px, solid, black;
+  border-radius: 5px;
   transition-property: all;
   transition-duration: 0.3s;
 }
@@ -118,4 +119,3 @@ button::after {
   color: white;
   width: 120px;
 }
-
