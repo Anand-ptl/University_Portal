@@ -1,12 +1,17 @@
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #64777d, #d67916);
+
 }
 footer {
   background-color: black;
   color: white;
   font-size: 10px;
   text-transform: capitalize;
+}
+h1{
+  color: white;
 }
 button {
   background-color: yellow;

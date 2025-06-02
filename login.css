@@ -5,7 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #f4f4f4;
+background: linear-gradient(135deg, #64777d, #d67916);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +16,8 @@ body {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   filter: drop-shadow(10px 10px 20px black);
+
   text-align: center;
   width: 350px;
 }

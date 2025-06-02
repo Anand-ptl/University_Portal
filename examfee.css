@@ -1,7 +1,13 @@
 body {
   text-align: center;
+  background: linear-gradient(135deg, #64777d, #d67916);
+
 
   height: 100%;
+}
+#logo{
+      filter: drop-shadow(10px 10px 20px black);
+
 }
 .pay {
   margin-top: 20px;

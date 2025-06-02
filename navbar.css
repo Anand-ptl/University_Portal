@@ -6,6 +6,10 @@
   font-weight: bolder;
   font-size: 20px;
 }
+body{
+  background: linear-gradient(135deg, #64777d, #d67916);
+
+}
 .button_anchor {
   text-decoration: none;
   color: white;

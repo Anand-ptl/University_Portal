@@ -1,7 +1,9 @@
 body {
-  background-color: rgb(160, 185, 185);
+  /* background-color: rgb(160, 185, 185); */
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background: linear-gradient(135deg, #64777d, #d67916);
+
   margin: 0;
   padding: 0;
 }
@@ -27,6 +29,8 @@ div {
 }
 .img {
   margin-top: 0;
+    filter: drop-shadow(10px 10px 20px black);
+
 }
 
 .form-container {
@@ -35,7 +39,8 @@ div {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     filter: drop-shadow(10px 10px 20px black);
+
   min-height: 80vh;
   height: 100%;
   overflow-y: auto;
