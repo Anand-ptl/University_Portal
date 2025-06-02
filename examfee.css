@@ -2,12 +2,10 @@ body {
   text-align: center;
   background: linear-gradient(135deg, #64777d, #d67916);
 
-
   height: 100%;
 }
-#logo{
-      filter: drop-shadow(10px 10px 20px black);
-
+#logo {
+  filter: drop-shadow(10px 10px 20px black);
 }
 .pay {
   margin-top: 20px;
@@ -16,7 +14,32 @@ h3 {
   text-transform: capitalize;
   background-color: yellow;
 }
-button {
+input {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 25px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px black;
+  text-align: center;
+}
+.Verify_button {
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+}
+.Verify_button:hover {
+  transform: scale(1.055);
+}
+.paydone {
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
@@ -30,10 +53,8 @@ button {
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
 }
-button:hover{
+.paydone:hover {
   background-color: rgb(80, 62, 137);
-
-
 }
 footer {
   background-color: black;
